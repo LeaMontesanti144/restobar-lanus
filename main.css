@@ -1,0 +1,345 @@
+html{
+    background: black;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none ;
+    color: white;
+}
+
+nav a{
+    padding-left: 20px;
+    }
+
+nav a:hover{
+    color: grey;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .logo{
+        display: flex;
+        height: 50px;
+        left: 200px;
+    }
+    
+    .nombre-logo{
+        display: flex;
+        color: white;
+        margin-left: 15px;
+    
+    }
+
+/*--FIN DE HEADER--*/
+
+
+/*--INICIO MAIN--*/
+
+/*--TITULO--*/
+
+h1{
+    color: white;
+    font-size: 110px;
+    margin: 0%;
+    text-align: center;
+    text-shadow: 0 0 20px black ;
+}
+
+.fototitulo h2{
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 0 20px black ;
+
+}
+
+.fototitulo{
+    background-image: url(./multimedia/fotocomida.png.jpeg);
+    height: 450px;
+}
+
+/*--ÑOQUIS--*/
+
+#intro{
+    display: flex;
+    padding: 60px 150px;
+    padding-left: 0px;
+    }
+
+#intro div{
+    background: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    }
+
+.titulo{
+    color: black;
+    font-family: sans-serif;
+    margin: 10px;
+    text-align: center;
+    font-size: 35px;
+}   
+.parrafo{
+    color: black;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.imgnoquis{
+    width: 40%;
+    border-bottom-right-radius: 10%;
+    border-top-right-radius: 10%;
+
+}
+
+
+/*--POLLO--*/
+
+#intro2{
+    display: flex;
+    background: white;
+    text-align: center;
+    padding: 0px
+}
+
+#intro2 img{
+   width: 450px;
+   height: 255px;
+}
+
+.textox{
+    text-align: center;
+    padding: 30px;
+}
+
+.textox h2{
+    font-size: 30px;
+}
+/*--CARNE--*/
+
+#intro3{
+    display: flex;
+    background: white;
+    text-align: center;
+    padding: 0px;
+}
+
+
+#intro3 img{
+    width: 450px;
+    height: 300px;
+}
+
+#intro3 div{
+    background-color: white;
+}
+
+
+
+.linea{
+    padding: 0px 80px 0px 80px;
+}
+
+footer{
+    color: white;
+    }
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px 0px 80px;
+}
+
+footer div p{
+    font-size: small;
+}
+
+
+    /*--HTML MENU--*/
+
+/*--MAIN--*/
+
+
+.menutriple{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+div .menu{
+    transform: scale(1.0);
+    padding: 0px 25px;
+    background: rgb(17, 17, 17);
+    width: 300px;
+    height: 400px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+div .menu:hover{
+    transform: scale(1.2);
+}
+
+
+div .menu2{
+    transform: scale(1.0);
+    padding: 0px 25px;
+    background: rgb(17, 17, 17);;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+div .menu2:hover{
+    transform: scale(1.2);
+}
+
+div .menu3{
+    transform: scale(1.0);
+    padding: 0px 25px;
+    background: rgb(17, 17, 17);;
+    width: 300px;
+    height: 400px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 15px;
+    transition: all 1s;
+}
+
+div .menu3:hover{
+    transform:scale(1.2);
+}
+
+ .fotobebida{
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.fotonoquis{
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.fotocarne{
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.menutriple, h3{
+    color: white;
+    font-family: sans-serif;
+}
+
+.conteiner{
+    width: 100%;
+    height: 120px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.18803495519301472) 66%, rgba(162,0,19,1) 100%);
+}
+
+ .infomenu{
+    color: white;
+    font-family: Calibri;
+    text-align: center;
+    padding: 0px 80px 0px 80px;
+}
+
+/*--FOOTER--*/
+
+
+
+
+
+/*--RESERVACIONES--*/
+
+.formulario{
+    width: 400px;
+    height: auto;
+    background: grey;
+    text-align: center;
+    padding: 30px 0px 20px 0px;
+    border-radius: 15px;
+    position: relative;
+    left: 480px;
+ }
+
+ .fotoreservaciones{
+    width: 100%;
+    height: 120px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,0.18803495519301472) 66%, rgba(162,0,19,1) 100%);
+ }
+
+/*--HISTORIA--*/
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto 600px auto;
+    
+}
+
+
+
+.c1{
+    grid-column: 1/3;
+}
+
+.c2{
+    grid-column: 1/3;
+    background-image: url(./multimedia/fotocomida.png.jpeg);
+    text-align: center;
+    padding-top: 40px;
+    }
+
+    .c2 h2{
+        color: white;
+        font-size: 110px;
+        margin: 0%;
+        text-align: center;
+        text-shadow: 0 0 20px black ;
+    }
+
+
+.c3{
+    grid-column: 1/3;
+}
+
+.textohistoria{
+    height: 120px;
+    background-color: white;
+    display: flex;
+    margin: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: all 1s;
+   }
+
+   .textohistoria:hover{
+    height: 200px;
+   }
